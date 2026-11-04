@@ -13,7 +13,7 @@ Can Irish small areas be grouped into distinct housing-pattern types to help pla
 | File | Source | Licence |
 |---|---|---|
 | `SAPS_2022_Small_Area_UR_171024.csv` | CSO Census 2022 Small Area Population Statistics | CSO open data (CC BY 4.0) |
-| `Small_Area_National_Statistical_Boundaries_2022_Ungeneralised_view_....csv` | Tailte Éireann via data.gov.ie | CC BY 4.0 |
+| `Small_Area_National_Statistical_Boundaries_2022_Ungeneralised_view_....csv` | Tailte Éireann Open Data Portal| CC BY 4.0 |
 | `Glossary_Saps_2022_REVISED_21102024.xlsx` | CSO column glossary | CSO open data (CC BY 4.0) |
 
 Place all raw files in `data/raw/`. Raw files are never edited. Download links and file notes are in `data/raw/DATA_SOURCES.md`; the features used are defined in `data/DATA_DICTIONARY.md`.
@@ -32,13 +32,6 @@ K-means clustering of 18,919 small areas on eight features (log dwelling density
 - `references/` – reference list
 - `AI_LOG.md` – record of AI assistance
 
-### How to run
-
-1. `python -m venv .venv && source .venv/bin/activate`
-2. `pip install -r requirements.txt`
-3. Open `notebooks/CA2_CRISP_DM_Notebook.ipynb` and run Kernel → Restart & Run All.
-
-Random seed is fixed at 42.
 
 ### Project status
 
