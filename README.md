@@ -1,7 +1,7 @@
 # Irish Housing Density: Clustering Census 2022 Small Areas
 
 **Module:** Data Analytics, CA2 (CRISP-DM Analytics Project)
-**Student:** Patryk [Surname], [Student number], MTU Kerry
+**Student:** Patryk Graszk, T00257714 , MTU Kerry
 **Lecturer:** Andrew Shields
 
 ### Project question
